@@ -1,0 +1,103 @@
+Everyone Can Design Programs
+10 Jun 2018
+
+Weerasak Chongnguluam
+Software Developer, Omise
+
+* ทุก ๆ คนสามารถออกแบบโปรแกรมได้ จริงอ่ะ?
+
+* โปรแกรม คืออะไร
+
+* โปรแกรม คืออะไร
+- ลำดับขั้นตอน
+- กระบวนการแก้ปัญหา
+- กระบวนการทำงาน
+
+* การออกแบบโปรแกรม
+- การออกแบบลำดับขั้นตอนการแก้ปัญหา
+- การออกแบบกระบวนการทำงาน
+
+* เด็ก
+- ตอนเราเป็นเด็ก หน้าที่หลักของเราคือเล่น และออกแบบว่าแต่ละวันเราจะเล่นอะไร
+- ตอนที่เราเป็นเด็ก เราคิดและตั้งกฎในการเล่นของเรากันขึ้นมาเยอะมากๆ
+
+* วัยทำงาน
+- นักดนตรี แต่งเนื้อร้อง แต่งดนตรี และโปรแกรมเสียงให้ออกมาตามที่ต้องการ
+- คนเล่นหุ้นออกแบบพอร์ตการลงทุนของตัวเอง
+- คนทำเกษตร ออกแบบว่าในแต่ละปีจะปลูกอะไรบ้าง
+- สถาปนิค ออกแบบบ้าน
+- และ software developer ออกแบบโปรแกรมคอมพิวเตอร์
+
+* โปรแกรมคอมพิวเตอร์
+- กระบวนการทำงาน วิธีการแก้ปัญหา ที่อยู่ในรูปแบบที่เครื่องคอมพิวเตอร์สามารถประมวลผลแทนเราได้
+- โปรแกรมคอมพิวเตอร์ ทำงานโดยมี interaction กับคนใช้งานได้
+
+* Systematic Program Design
+.link http://htdp.org How to Design Programs
+หนังสือเล่มนี้สอนเราคิด และออกแบบโปรแกรมอย่างเป็นระบบ
+.image htdp-2e-cover.gif
+
+* Basic steps of a function design recipe
+6 ขั้นตอนในการออกแบบฟังก์ชัน ซึ่งเป็นส่วนประกอบหลังของโปรแกรม
+
+1. From Problem Analysis to Data Definitions
+2. Signature, Purpose Statement, Header
+3. Functional Examples
+4. Function Template
+5. Function Definition
+6. Testing
+
+* From Problem Analysis to Data Definitions
+Identify the information that must be represented and how it is represented in the chosen programming language. Formulate data definitions and illustrate them with examples.
+
+_analyze_a_problem_statement,_typically_stated_as_a_word_problem_
+
+* Signature, Purpose Statement, Header
+State what kind of data the desired function consumes and produces. Formulate a concise answer to the question what the function computes. Define a stub that lives up to the signature.
+
+_extract_and_express_its_essence,_abstractly_
+
+* Functional Examples
+Work through examples that illustrate the function’s purpose.
+
+_illustrate_the_essence_with_examples_
+
+* Function Template
+Translate the data definitions into an outline of the function.
+
+_make_outlines_and_plans_based_on_this_analysis_
+
+* Function Definition
+Fill in the gaps in the function template. Exploit the purpose statement and the examples.
+
+_evaluate_results_with_respect_to_expected_outcomes_
+
+* Testing
+Articulate the examples as tests and ensure that the function passes all. Doing so discovers mistakes. Tests also supplement examples in that they help others read and understand the definition when the need arises—and it will arise for any serious program.
+
+_revise_the_product_in_light_of_failed_checks_and_tests_
+
+* Demo
+
+* Skills Transfer
+- analysis
+- precision
+- description
+- focus
+- attention to details
+
+* Skills Transfer
+ไม่ใช่แค่อาชีพโปรแกรมเมอร์ที่ใช้ทักษะแบบนี้ อาชีพอื่นก็ใช้เหมือนกัน ไม่ว่าจะเป็น
+- ผู้ประกอบการ
+- วิศวกร, นักวิทยาศาสตร์
+- สถาปนิค
+- นักเขียน
+- ...
+
+* Skills Transfer
+- เริ่มจากคิดไอเดีย
+- พยายามร่างและสรุปไอเดียจากในหัวออกมาบันทึกไว้
+- นำร่างไอเดียที่ได้ไปทดลองทำ
+- ตรวจสอบผลที่ได้แล้วนำกลับไปปรับปรุง
+
+* Everyone Can Design Programs
